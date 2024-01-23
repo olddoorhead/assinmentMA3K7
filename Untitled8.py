@@ -1,14 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 import numpy as np
-
-
-# In[24]:
-
 
 n = np.arange(0,100)
 a_n = np.zeros_like(n, dtype = int)
@@ -49,10 +40,3 @@ for N in np.arange(2,100):
         if a_n[N-1] ==1:
             print(N-1)
 print(a_n)
-
-
-# In[ ]:
-
-
-
-
